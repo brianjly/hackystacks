@@ -1,0 +1,89 @@
+@font-face {
+  font-family: goodtimes;
+  src: url(goodtimes.ttf);
+
+}
+
+body{
+  background-color: #F5F8FA;
+}
+
+.headerbar{
+  margin: 0;
+  color: black;
+  padding: 5px 0;
+  font-family: 'goodtimes';
+
+}
+
+.headerbar p{
+    font-size: 0.8em;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+#htmlcssimage{
+  width: 100%;
+  height:180px;
+  background-image: url('htmlcss.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row{
+  margin-bottom: 15px;
+}
+
+#subject{
+   box-shadow: 0 0 7px 1px rgba(0,0,0,0.4);
+   border: none;
+   padding: 25px 100px;
+   color:black;
+}
+
+.btn-primary-outline{
+  color:black;
+  border-color: black;
+}
+
+.htmlcssbg{
+  background-color: rgba(63, 203, 83,0.7);
+
+}
+
+
+.javascriptbg{
+  background-color: rgba(238, 247, 61, 0.7);
+}
+
+.devopsbg{
+  background-color: rgba(247, 61, 61, 0.7);
+
+}
+
+.webbg{
+  background-color: rgba(61, 102, 247, 0.7);
+}
+
+.serverbg{
+  background-color:rgba(172, 56, 244,0.7);
+}
+
+.card-title{
+  font-weight: bolder;
+}
+
+
+@media(max-width:768px){
+
+  #subject{
+    padding: 30px 0;
+  }
+
+
+
+
+}
